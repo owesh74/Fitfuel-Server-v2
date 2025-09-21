@@ -21,7 +21,7 @@ app.use(express.json({ extended: false }));
 // Define Routes
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/outlets', require('./routes/outletRoutes'));
-
+app.use('/api/workouts', require('./routes/workoutRoutes'));
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
