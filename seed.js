@@ -199,78 +199,322 @@ const outletsData = [
       {"itemName": "Tandoori Paneer Pizza (Medium)", "calories": 2048, "protein": 67, "carbs": 305.6, "fat": 65},
     ],
   },
+   {
+    name: "Everyday Indian Foods (Ghar ka Khana)",
+    description: "Nutritional values for common home-cooked Indian meals.",
+    menu: [
+      // Breads
+      { itemName: "Plain Roti / Chapati (Atta)", calories: 85, protein: 3, carbs: 18, fat: 0.5 },
+      { itemName: "Tawa Paratha (Plain)", calories: 150, protein: 4, carbs: 25, fat: 4 },
+      { itemName: "Aloo Paratha (1 medium)", calories: 250, protein: 6, carbs: 40, fat: 8 },
+      { itemName: "Paneer Paratha (1 medium)", calories: 290, protein: 12, carbs: 35, fat: 11 },
+      { itemName: "Naan (Plain)", calories: 260, protein: 8, carbs: 50, fat: 3 },
+      { itemName: "Butter Naan", calories: 310, protein: 9, carbs: 55, fat: 6 },
+      { itemName: "Puri (1 piece)", calories: 80, protein: 1, carbs: 10, fat: 4 },
+      
+      // Rice
+      { itemName: "Plain White Rice (1 bowl)", calories: 205, protein: 4.3, carbs: 45, fat: 0.4 },
+      { itemName: "Jeera Rice (1 bowl)", calories: 240, protein: 4.5, carbs: 46, fat: 5 },
+      { itemName: "Vegetable Pulao (1 bowl)", calories: 290, protein: 6, carbs: 55, fat: 4 },
+      { itemName: "Chicken Biryani (1 plate)", calories: 450, protein: 20, carbs: 55, fat: 15 },
+      { itemName: "Curd Rice (1 bowl)", calories: 260, protein: 7, carbs: 48, fat: 4 },
+
+      // Dals
+      { itemName: "Dal Tadka (Toor/Arhar) (1 bowl)", calories: 180, protein: 9, carbs: 25, fat: 5 },
+      { itemName: "Dal Fry (1 bowl)", calories: 200, protein: 10, carbs: 28, fat: 6 },
+      { itemName: "Dal Makhani (1 bowl)", calories: 300, protein: 12, carbs: 35, fat: 13 },
+      { itemName: "Chana Dal (1 bowl)", calories: 220, protein: 11, carbs: 35, fat: 4 },
+      { itemName: "Moong Dal (Yellow) (1 bowl)", calories: 160, protein: 8, carbs: 24, fat: 3 },
+      { itemName: "Sambar (1 bowl)", calories: 150, protein: 7, carbs: 22, fat: 4 },
+
+      // Vegetable Curries
+      { itemName: "Mixed Vegetable Sabzi (1 bowl)", calories: 150, protein: 4, carbs: 15, fat: 8 },
+      { itemName: "Aloo Gobi (1 bowl)", calories: 160, protein: 4, carbs: 18, fat: 8 },
+      { itemName: "Bhindi Masala (Okra) (1 bowl)", calories: 140, protein: 3, carbs: 12, fat: 9 },
+      { itemName: "Palak Paneer (1 bowl)", calories: 280, protein: 15, carbs: 10, fat: 20 },
+      { itemName: "Paneer Butter Masala (1 bowl)", calories: 350, protein: 16, carbs: 12, fat: 28 },
+      { itemName: "Chana Masala (1 bowl)", calories: 250, protein: 10, carbs: 35, fat: 8 },
+      { itemName: "Rajma Masala (1 bowl)", calories: 280, protein: 12, carbs: 40, fat: 7 },
+
+      // Non-Vegetarian Curries
+      { itemName: "Butter Chicken (1 bowl)", calories: 450, protein: 25, carbs: 15, fat: 32 },
+      { itemName: "Chicken Tikka Masala (1 bowl)", calories: 400, protein: 28, carbs: 12, fat: 26 },
+      { itemName: "Chicken Curry (Home-style) (1 bowl)", calories: 300, protein: 22, carbs: 10, fat: 18 },
+      { itemName: "Egg Curry (2 eggs) (1 bowl)", calories: 280, protein: 15, carbs: 8, fat: 20 },
+      { itemName: "Fish Curry (1 bowl)", calories: 260, protein: 20, carbs: 7, fat: 16 },
+
+      // Breakfast & Snacks
+      { itemName: "Poha (1 plate)", calories: 250, protein: 4, carbs: 50, fat: 3 },
+      { itemName: "Upma (1 bowl)", calories: 280, protein: 7, carbs: 45, fat: 8 },
+      { itemName: "Idli (2 pieces)", calories: 120, protein: 4, carbs: 26, fat: 0.5 },
+      { itemName: "Masala Dosa (1 piece)", calories: 350, protein: 8, carbs: 65, fat: 9 },
+      { itemName: "Samosa (1 piece)", calories: 260, protein: 4, carbs: 32, fat: 14 },
+      
+      // Sides
+      { itemName: "Plain Curd / Dahi (1 bowl)", calories: 100, protein: 6, carbs: 7, fat: 4 },
+      { itemName: "Raita (Boondi/Veg) (1 bowl)", calories: 130, protein: 7, carbs: 10, fat: 6 },
+      { itemName: "Green Salad (1 plate)", calories: 50, protein: 2, carbs: 8, fat: 1 },
+    ]
+  },
+  {
+    name: "Gym Diet (Veg)",
+    description: "High-protein vegetarian options for fitness.",
+    menu: [
+      // Protein Sources
+      { itemName: "Paneer (100g, raw)", calories: 265, protein: 18, carbs: 6, fat: 21 },
+      { itemName: "Paneer Bhurji (1 bowl)", calories: 300, protein: 20, carbs: 8, fat: 22 },
+      { itemName: "Tofu (100g)", calories: 76, protein: 8, carbs: 2, fat: 5 },
+      { itemName: "Greek Yogurt (1 cup, plain)", calories: 100, protein: 17, carbs: 6, fat: 0 },
+      { itemName: "Soya Chunks (50g, dry)", calories: 175, protein: 26, carbs: 15, fat: 0.5 },
+      { itemName: "Soya Keema (1 bowl)", calories: 220, protein: 25, carbs: 18, fat: 5 },
+      { itemName: "Whey Protein (1 scoop)", calories: 120, protein: 24, carbs: 3, fat: 1 },
+      { itemName: "Milk (250ml, toned)", calories: 150, protein: 8, carbs: 12, fat: 8 },
+      
+      // Dals & Legumes
+      { itemName: "Chana (Chickpeas, 1 cup cooked)", calories: 269, protein: 15, carbs: 45, fat: 4 },
+      { itemName: "Rajma (Kidney Beans, 1 cup cooked)", calories: 225, protein: 15, carbs: 40, fat: 1 },
+      { itemName: "Moong Dal (1 bowl cooked)", calories: 160, protein: 8, carbs: 24, fat: 3 },
+      { itemName: "Black Chana (1 cup cooked)", calories: 280, protein: 13, carbs: 48, fat: 5 },
+      { itemName: "Lobia / Black Eyed Peas (1 cup cooked)", calories: 200, protein: 13, carbs: 35, fat: 1 },
+
+      // Complex Carbs
+      { itemName: "Oats (50g, dry)", calories: 195, protein: 8, carbs: 33, fat: 3.5 },
+      { itemName: "Brown Rice (1 cup cooked)", calories: 215, protein: 5, carbs: 45, fat: 2 },
+      { itemName: "Sweet Potato (100g)", calories: 86, protein: 1.6, carbs: 20, fat: 0.1 },
+      { itemName: "Quinoa (1 cup cooked)", calories: 222, protein: 8, carbs: 39, fat: 4 },
+      
+      // Vegetables
+      { itemName: "Broccoli (1 cup)", calories: 55, protein: 4, carbs: 11, fat: 0.6 },
+      { itemName: "Spinach (Palak, 1 cup cooked)", calories: 41, protein: 5, carbs: 7, fat: 0.5 },
+      { itemName: "Bell Peppers / Capsicum (1 cup)", calories: 30, protein: 1, carbs: 7, fat: 0.3 },
+      { itemName: "Cauliflower (1 cup)", calories: 27, protein: 2, carbs: 5, fat: 0.3 },
+      { itemName: "Mushroom (1 cup)", calories: 21, protein: 3, carbs: 3, fat: 0.3 },
+
+      // Healthy Fats
+      { itemName: "Almonds (20 pieces)", calories: 164, protein: 6, carbs: 6, fat: 14 },
+      { itemName: "Walnuts (7 whole)", calories: 185, protein: 4, carbs: 4, fat: 18 },
+      { itemName: "Peanut Butter (2 tbsp)", calories: 190, protein: 7, carbs: 8, fat: 16 },
+      { itemName: "Flax Seeds (1 tbsp)", calories: 55, protein: 2, carbs: 3, fat: 4 },
+      { itemName: "Ghee (1 tbsp)", calories: 112, protein: 0, carbs: 0, fat: 13 },
+    ]
+  },
+  {
+    name: "Gym Diet (Non-Veg)",
+    description: "High-protein non-vegetarian options for fitness.",
+    menu: [
+      // Main Proteins
+      { itemName: "Chicken Breast (100g, boneless, cooked)", calories: 165, protein: 31, carbs: 0, fat: 3.6 },
+      { itemName: "Chicken Thigh (100g, boneless, cooked)", calories: 209, protein: 26, carbs: 0, fat: 11 },
+      { itemName: "Whole Egg (1 large, boiled)", calories: 78, protein: 6, carbs: 0.6, fat: 5 },
+      { itemName: "Egg Whites (from 4 eggs)", calories: 68, protein: 16, carbs: 1, fat: 0 },
+      { itemName: "Fish (Rohu, 100g, cooked)", calories: 110, protein: 20, carbs: 0, fat: 3 },
+      { itemName: "Fish (Salmon, 100g, cooked)", calories: 208, protein: 22, carbs: 0, fat: 13 },
+      { itemName: "Fish (Tuna in water, 100g)", calories: 132, protein: 28, carbs: 0, fat: 1.3 },
+      { itemName: "Prawns (100g, cooked)", calories: 99, protein: 24, carbs: 0, fat: 0.3 },
+      
+      // Common Dishes
+      { itemName: "Tandoori Chicken (1 leg piece)", calories: 220, protein: 25, carbs: 2, fat: 12 },
+      { itemName: "Chicken Tikka (6 pieces)", calories: 300, protein: 30, carbs: 5, fat: 18 },
+      { itemName: "Mutton Keema (1 bowl)", calories: 350, protein: 22, carbs: 5, fat: 27 },
+      { itemName: "Scrambled Eggs (2 eggs)", calories: 200, protein: 14, carbs: 2, fat: 15 },
+      { itemName: "Masala Omelette (2 eggs)", calories: 220, protein: 15, carbs: 4, fat: 16 },
+      { itemName: "Chicken Curry (home-style, 1 bowl)", calories: 300, protein: 22, carbs: 10, fat: 18 },
+      { itemName: "Fish Fry (1 fillet)", calories: 250, protein: 20, carbs: 10, fat: 14 },
+    ]
+  },
+  // --- NEW EXPANDED FRUITS SECTION ---
+  {
+    name: "Fruits",
+    description: "Nutritional values per 100g of fruit.",
+    menu: [
+        { "itemName": "Apple (Seb)", "calories": 52, "protein": 0.3, "carbs": 14, "fat": 0.2 },
+        { "itemName": "Banana (Kela)", "calories": 89, "protein": 1.1, "carbs": 23, "fat": 0.3 },
+        { "itemName": "Mango (Aam)", "calories": 60, "protein": 0.8, "carbs": 15, "fat": 0.4 },
+        { "itemName": "Orange (Santra)", "calories": 47, "protein": 0.9, "carbs": 12, "fat": 0.1 },
+        { "itemName": "Grapes (Angoor)", "calories": 69, "protein": 0.7, "carbs": 18, "fat": 0.2 },
+        { "itemName": "Pineapple (Ananas)", "calories": 50, "protein": 0.5, "carbs": 13, "fat": 0.1 },
+        { "itemName": "Watermelon (Tarbooz)", "calories": 30, "protein": 0.6, "carbs": 8, "fat": 0.2 },
+        { "itemName": "Guava (Amrood)", "calories": 68, "protein": 2.6, "carbs": 14, "fat": 1 },
+        { "itemName": "Pomegranate (Anaar)", "calories": 83, "protein": 1.7, "carbs": 19, "fat": 1.2 },
+        { "itemName": "Papaya (Papita)", "calories": 43, "protein": 0.5, "carbs": 11, "fat": 0.3 },
+        { "itemName": "Mosambi (Sweet Lime)", "calories": 43, "protein": 0.8, "carbs": 9, "fat": 0.3 },
+        { "itemName": "Chickoo (Sapodilla)", "calories": 83, "protein": 0.4, "carbs": 20, "fat": 1.1 },
+        { "itemName": "Lychee", "calories": 66, "protein": 0.8, "carbs": 17, "fat": 0.4 },
+        { "itemName": "Muskmelon (Kharbuja)", "calories": 34, "protein": 0.8, "carbs": 8, "fat": 0.2 },
+        { "itemName": "Figs (Anjeer)", "calories": 74, "protein": 0.8, "carbs": 19, "fat": 0.3 }
+    ]
+  },
+  
+  // --- NEW EXPANDED BEVERAGES SECTION ---
+  {
+    name: "Beverages",
+    description: "Nutritional values for common Indian drinks.",
+    menu: [
+        { "itemName": "Masala Chai (with milk & sugar)", "calories": 90, "protein": 2, "carbs": 15, "fat": 2 },
+        { "itemName": "Black Tea (no sugar)", "calories": 2, "protein": 0.3, "carbs": 0.3, "fat": 0 },
+        { "itemName": "Filter Coffee (with milk & sugar)", "calories": 110, "protein": 3, "carbs": 18, "fat": 3 },
+        { "itemName": "Black Coffee (no sugar)", "calories": 2, "protein": 0.1, "carbs": 0, "fat": 0 },
+        { "itemName": "Lassi (Sweet, 1 glass)", "calories": 160, "protein": 4, "carbs": 30, "fat": 3 },
+        { "itemName": "Chaas (Salted Buttermilk, 1 glass)", "calories": 60, "protein": 3, "carbs": 5, "fat": 3 },
+        { "itemName": "Nimbu Pani (Sweet & Salty)", "calories": 80, "protein": 0.1, "carbs": 20, "fat": 0 },
+        { "itemName": "Sugarcane Juice (1 glass)", "calories": 180, "protein": 0.2, "carbs": 45, "fat": 0 },
+        { "itemName": "Coconut Water (1 glass)", "calories": 46, "protein": 1.7, "carbs": 9, "fat": 0.2 },
+        { "itemName": "Jaljeera (1 glass)", "calories": 10, "protein": 0.2, "carbs": 2, "fat": 0.1 },
+        { "itemName": "Aam Panna (1 glass)", "calories": 120, "protein": 0.5, "carbs": 30, "fat": 0.2 },
+        { "itemName": "Badam Milk (1 glass)", "calories": 200, "protein": 7, "carbs": 25, "fat": 8 }
+    ]
+  },
+
+  // --- NEW EXPANDED SNACKS SECTION ---
+  {
+    name: "Snacks",
+    description: "Nutritional values for popular Indian snacks.",
+    menu: [
+        { "itemName": "Samosa (1 piece)", "calories": 260, "protein": 4, "carbs": 32, "fat": 14 },
+        { "itemName": "Poha (1 plate)", "calories": 250, "protein": 4, "carbs": 50, "fat": 3 },
+        { "itemName": "Upma (1 bowl)", "calories": 280, "protein": 7, "carbs": 45, "fat": 8 },
+        { "itemName": "Idli (2 pieces with sambar)", "calories": 180, "protein": 6, "carbs": 35, "fat": 1.5 },
+        { "itemName": "Masala Dosa (1 piece)", "calories": 350, "protein": 8, "carbs": 65, "fat": 9 },
+        { "itemName": "Vada Pav (1 piece)", "calories": 300, "protein": 7, "carbs": 50, "fat": 8 },
+        { "itemName": "Pav Bhaji (1 plate)", "calories": 400, "protein": 10, "carbs": 60, "fat": 14 },
+        { "itemName": "Dhokla (2 pieces)", "calories": 150, "protein": 6, "carbs": 25, "fat": 3 },
+        { "itemName": "Bhel Puri (1 plate)", "calories": 320, "protein": 7, "carbs": 60, "fat": 7 },
+        { "itemName": "Pani Puri (6 pieces)", "calories": 200, "protein": 4, "carbs": 35, "fat": 5 },
+        { "itemName": "Aloo Tikki Chaat (1 plate)", "calories": 350, "protein": 6, "carbs": 50, "fat": 14 },
+        { "itemName": "Kachori (1 piece)", "calories": 190, "protein": 3, "carbs": 20, "fat": 11 },
+        { "itemName": "Vegetable Pakora (4 pieces)", "calories": 200, "protein": 4, "carbs": 18, "fat": 13 },
+        { "itemName": "Khandvi (4 pieces)", "calories": 180, "protein": 7, "carbs": 15, "fat": 10 },
+        { "itemName": "Roasted Makhana (1 bowl)", "calories": 150, "protein": 5, "carbs": 30, "fat": 1 }
+    ]
+  },
+   {
+    name: "Healthy & Diet Foods",
+    description: "A comprehensive list of nutrient-dense foods for various diet goals.",
+    menu: [
+      // Proteins
+      { itemName: "Chicken Breast (100g, boneless)", calories: 165, protein: 31, carbs: 0, fat: 3.6 },
+      { itemName: "Egg (1 large, boiled)", calories: 78, protein: 6, carbs: 0.6, fat: 5 },
+      { itemName: "Paneer (100g)", calories: 265, protein: 18, carbs: 6, fat: 21 },
+      { itemName: "Greek Yogurt (1 cup)", calories: 100, protein: 17, carbs: 6, fat: 0 },
+      { itemName: "Soya Chunks (50g, dry)", calories: 175, protein: 26, carbs: 15, fat: 0.5 },
+      { itemName: "Fish (Salmon, 100g)", calories: 208, protein: 20, carbs: 0, fat: 13 },
+      { itemName: "Tofu (100g)", calories: 76, protein: 8, carbs: 2, fat: 5 },
+      { itemName: "Lentils (Moong Dal, 1 cup cooked)", calories: 212, protein: 14, carbs: 38, fat: 1 },
+      { itemName: "Whey Protein (1 scoop)", calories: 120, protein: 24, carbs: 3, fat: 1 },
+      { itemName: "Chickpeas (1 cup cooked)", calories: 269, protein: 15, carbs: 45, fat: 4 },
+      { itemName: "Kidney Beans (Rajma, 1 cup cooked)", calories: 225, protein: 15, carbs: 40, fat: 1 },
+
+      // Vegetables
+      { itemName: "Spinach (Palak, 1 cup)", calories: 7, protein: 1, carbs: 1, fat: 0.1 },
+      { itemName: "Cauliflower (1 cup)", calories: 27, protein: 2, carbs: 5, fat: 0.3 },
+      { itemName: "Broccoli (1 cup)", calories: 55, protein: 4, carbs: 11, fat: 0.6 },
+      { itemName: "Mushroom (1 cup)", calories: 21, protein: 3, carbs: 3, fat: 0.3 },
+      { itemName: "Bell Pepper (Capsicum, 1 medium)", calories: 30, protein: 1, carbs: 7, fat: 0.3 },
+      { itemName: "Zucchini (1 cup)", calories: 21, protein: 1.5, carbs: 4, fat: 0.4 },
+      
+      // Healthy Fats
+      { itemName: "Avocado (half)", calories: 160, protein: 2, carbs: 9, fat: 15 },
+      { itemName: "Olive Oil (1 tbsp)", calories: 119, protein: 0, carbs: 0, fat: 14 },
+      { itemName: "Ghee (1 tbsp)", calories: 112, protein: 0, carbs: 0, fat: 13 },
+      { itemName: "Almonds (20 pieces)", calories: 164, protein: 6, carbs: 6, fat: 14 },
+      { itemName: "Walnuts (7 whole)", calories: 185, protein: 4, carbs: 4, fat: 18 },
+      { itemName: "Peanut Butter (2 tbsp)", calories: 190, protein: 7, carbs: 8, fat: 16 },
+      
+      // Grains & Seeds (Fiber)
+      { itemName: "Oats (1/2 cup, dry)", calories: 307, protein: 13, carbs: 55, fat: 5 },
+      { itemName: "Chia Seeds (2 tbsp)", calories: 138, protein: 5, carbs: 12, fat: 9 },
+      { itemName: "Flax Seeds (2 tbsp)", calories: 110, protein: 4, carbs: 6, fat: 8 },
+      { itemName: "Pumpkin Seeds (1/4 cup)", calories: 180, protein: 10, carbs: 4, fat: 16 },
+
+      // Fruits (Fiber)
+      { itemName: "Apple (1 medium)", calories: 95, protein: 0.5, carbs: 25, fat: 0.3 },
+      { itemName: "Guava (1 fruit)", calories: 37, protein: 1.4, carbs: 8, fat: 0.5 },
+    ]
+  },
+   {
+    name: "Healthy Desserts",
+    description: "Healthier dessert options to satisfy your sweet cravings.",
+    menu: [
+      // Fruit-Based
+      { itemName: "Fruit Salad (1 bowl)", calories: 120, protein: 1, carbs: 30, fat: 0.5 },
+      { itemName: "Apple with Peanut Butter (1 apple, 1 tbsp PB)", calories: 190, protein: 4, carbs: 28, fat: 8 },
+      { itemName: "Grilled Pineapple (2 slices)", calories: 80, protein: 1, carbs: 21, fat: 0.2 },
+      { itemName: "Baked Apple with Cinnamon", calories: 100, protein: 0.3, carbs: 27, fat: 0.2 },
+
+      // Yogurt-Based
+      { itemName: "Greek Yogurt with Berries (1 cup)", calories: 150, protein: 18, carbs: 15, fat: 2 },
+      { itemName: "Shrikhand (with Greek yogurt, no sugar)", calories: 140, protein: 15, carbs: 10, fat: 4 },
+      { itemName: "Yogurt Parfait (with fruits & nuts)", calories: 250, protein: 20, carbs: 25, fat: 8 },
+      { itemName: "Bhapa Doi (Steamed Yogurt, with jaggery)", calories: 180, protein: 9, carbs: 20, fat: 7 },
+
+      // Indian Sweets (Healthier Versions)
+      { itemName: "Date and Nut Ladoo (1 piece)", calories: 90, protein: 2, carbs: 12, fat: 4 },
+      { itemName: "Besan Ladoo (1 piece, with jaggery)", calories: 150, protein: 4, carbs: 18, fat: 7 },
+      { itemName: "Makhana Kheer (1 bowl, with jaggery)", calories: 180, protein: 6, carbs: 25, fat: 6 },
+      { itemName: "Gajar ka Halwa (1 small bowl, with jaggery)", calories: 220, protein: 4, carbs: 30, fat: 9 },
+      { itemName: "Lauki ka Halwa (1 small bowl, with jaggery)", calories: 160, protein: 3, carbs: 22, fat: 7 },
+      
+      // Other Options
+      { itemName: "Chia Seed Pudding (1 bowl)", calories: 200, protein: 6, carbs: 25, fat: 9 },
+      { itemName: "Dark Chocolate (2 squares, 70%+)", calories: 120, protein: 2, carbs: 8, fat: 9 },
+      { itemName: "Avocado Chocolate Mousse (1 small bowl)", calories: 250, protein: 4, carbs: 20, fat: 18 },
+    ]
+  },
   {
     name: "Grains and Cereals",
     description: "Nutritional values per 100g of raw food.",
     menu: [
-         { "itemName": "White Rice", "calories": 365, "protein": 7.1, "carbs": 80.0, "fat": 0.7, "sugar": 0.1 },
-    { "itemName": "Brown Rice", "calories": 370, "protein": 7.9, "carbs": 77.2, "fat": 2.9, "sugar": 0.9 },
-    { "itemName": "Basmati Rice", "calories": 356, "protein": 8.2, "carbs": 78.0, "fat": 0.8, "sugar": 0.2 },
-    { "itemName": "Red Rice", "calories": 405, "protein": 7.0, "carbs": 86.0, "fat": 2.2, "sugar": 1.0 },
-    { "itemName": "Black Rice", "calories": 356, "protein": 8.9, "carbs": 75.6, "fat": 3.2, "sugar": 0.7 },
-    { "itemName": "Wheat", "calories": 339, "protein": 13.7, "carbs": 71.2, "fat": 2.5, "sugar": 0.4 },
-    { "itemName": "Oats", "calories": 389, "protein": 16.9, "carbs": 66.3, "fat": 6.9, "sugar": 0.9 },
-    { "itemName": "Barley", "calories": 354, "protein": 12.5, "carbs": 73.5, "fat": 2.3, "sugar": 0.8 },
-    { "itemName": "Quinoa", "calories": 368, "protein": 14.1, "carbs": 64.2, "fat": 6.1, "sugar": 4.6 },
-    { "itemName": "Millet", "calories": 378, "protein": 11.0, "carbs": 73.0, "fat": 4.2, "sugar": 1.7 },
-    { "itemName": "Toor Dal (Pigeon Pea)", "calories": 343, "protein": 22.3, "carbs": 59.0, "fat": 1.5, "sugar": 2.4 },
-    { "itemName": "Moong Dal (Green Lentil)", "calories": 347, "protein": 24.5, "carbs": 59.0, "fat": 1.2, "sugar": 6.6 },
-    { "itemName": "Chana Dal (Split Chickpea)", "calories": 372, "protein": 22.5, "carbs": 57.2, "fat": 5.3, "sugar": 10.7 },
-    { "itemName": "Masoor Dal (Red Lentil)", "calories": 352, "protein": 24.6, "carbs": 63.4, "fat": 1.1, "sugar": 2.0 },
-    { "itemName": "Urad Dal (Black Gram)", "calories": 341, "protein": 25.2, "carbs": 58.9, "fat": 1.6, "sugar": 7.0 },
-    { "itemName": "Rajma (Kidney Bean)", "calories": 333, "protein": 22.5, "carbs": 60.3, "fat": 1.4, "sugar": 2.1 },
-    { "itemName": "Chickpeas (Garbanzo Beans)", "calories": 378, "protein": 20.5, "carbs": 63.0, "fat": 6.0, "sugar": 10.7 },
-    { "itemName": "Spinach", "calories": 23, "protein": 2.9, "carbs": 3.6, "fat": 0.4, "sugar": 0.4 },
-    { "itemName": "Kale", "calories": 49, "protein": 4.3, "carbs": 8.8, "fat": 0.9, "sugar": 2.3 },
-    { "itemName": "Lettuce", "calories": 15, "protein": 1.4, "carbs": 2.9, "fat": 0.1, "sugar": 0.8 },
-    { "itemName": "Potato", "calories": 77, "protein": 2.0, "carbs": 17.5, "fat": 0.1, "sugar": 0.8 },
-    { "itemName": "Sweet Potato", "calories": 86, "protein": 1.6, "carbs": 20.1, "fat": 0.1, "sugar": 4.2 },
-    { "itemName": "Carrot", "calories": 41, "protein": 0.9, "carbs": 9.6, "fat": 0.2, "sugar": 4.7 },
-    { "itemName": "Onion", "calories": 40, "protein": 1.1, "carbs": 9.3, "fat": 0.1, "sugar": 4.2 },
-    { "itemName": "Garlic", "calories": 149, "protein": 6.4, "carbs": 33.1, "fat": 0.5, "sugar": 1.0 },
-    { "itemName": "Tomato", "calories": 18, "protein": 0.9, "carbs": 3.9, "fat": 0.2, "sugar": 2.6 },
-    { "itemName": "Cucumber", "calories": 16, "protein": 0.7, "carbs": 3.6, "fat": 0.1, "sugar": 1.7 },
-    { "itemName": "Bell Pepper", "calories": 31, "protein": 1.0, "carbs": 7.3, "fat": 0.3, "sugar": 4.2 },
-    { "itemName": "Brinjal (Eggplant)", "calories": 25, "protein": 1.0, "carbs": 5.9, "fat": 0.2, "sugar": 3.5 },
-    { "itemName": "Cauliflower", "calories": 25, "protein": 1.9, "carbs": 5.0, "fat": 0.3, "sugar": 1.9 },
-    { "itemName": "Broccoli", "calories": 34, "protein": 2.8, "carbs": 6.6, "fat": 0.4, "sugar": 1.5 },
-    { "itemName": "Orange", "calories": 47, "protein": 0.9, "carbs": 11.8, "fat": 0.1, "sugar": 9.4 },
-    { "itemName": "Lemon", "calories": 29, "protein": 1.1, "carbs": 9.3, "fat": 0.3, "sugar": 1.5 },
-    { "itemName": "Mango", "calories": 60, "protein": 0.8, "carbs": 15.0, "fat": 0.4, "sugar": 13.7 },
-    { "itemName": "Banana", "calories": 89, "protein": 1.1, "carbs": 22.8, "fat": 0.3, "sugar": 12.2 },
-    { "itemName": "Papaya", "calories": 43, "protein": 0.5, "carbs": 10.8, "fat": 0.3, "sugar": 7.8 },
-    { "itemName": "Pineapple", "calories": 50, "protein": 0.5, "carbs": 13.1, "fat": 0.1, "sugar": 9.9 },
-    { "itemName": "Apple", "calories": 52, "protein": 0.3, "carbs": 13.8, "fat": 0.2, "sugar": 10.4 },
-    { "itemName": "Pomegranate", "calories": 83, "protein": 1.7, "carbs": 18.7, "fat": 1.2, "sugar": 13.7 },
-    { "itemName": "Watermelon", "calories": 30, "protein": 0.6, "carbs": 7.6, "fat": 0.2, "sugar": 6.2 },
-    { "itemName": "Strawberry", "calories": 32, "protein": 0.7, "carbs": 7.7, "fat": 0.3, "sugar": 4.9 },
-    { "itemName": "Almonds", "calories": 579, "protein": 21.2, "carbs": 21.6, "fat": 49.9, "sugar": 4.4 },
-    { "itemName": "Cashews", "calories": 553, "protein": 18.2, "carbs": 30.2, "fat": 43.8, "sugar": 5.9 },
-    { "itemName": "Walnuts", "calories": 654, "protein": 15.2, "carbs": 13.7, "fat": 65.2, "sugar": 2.6 },
-    { "itemName": "Peanuts", "calories": 567, "protein": 25.8, "carbs": 16.1, "fat": 49.2, "sugar": 4.7 },
-    { "itemName": "Pistachios", "calories": 560, "protein": 20.2, "carbs": 27.2, "fat": 45.3, "sugar": 7.7 },
-    { "itemName": "Sesame Seeds", "calories": 573, "protein": 17.7, "carbs": 23.4, "fat": 49.7, "sugar": 0.3 },
-    { "itemName": "Sunflower Seeds", "calories": 584, "protein": 20.8, "carbs": 20.0, "fat": 51.5, "sugar": 2.6 },
-    { "itemName": "Pumpkin Seeds", "calories": 559, "protein": 30.2, "carbs": 10.7, "fat": 49.1, "sugar": 1.4 },
-    { "itemName": "Flax Seeds", "calories": 534, "protein": 18.3, "carbs": 28.9, "fat": 42.2, "sugar": 1.6 },
-    { "itemName": "Chia Seeds", "calories": 486, "protein": 16.5, "carbs": 42.1, "fat": 30.7, "sugar": 0.0 },
-    { "itemName": "Whole Milk", "calories": 61, "protein": 3.2, "carbs": 4.8, "fat": 3.3, "sugar": 5.1 },
-    { "itemName": "Skimmed Milk", "calories": 34, "protein": 3.4, "carbs": 5.0, "fat": 0.1, "sugar": 5.1 },
-    { "itemName": "Yogurt (Plain)", "calories": 61, "protein": 3.5, "carbs": 4.7, "fat": 3.3, "sugar": 4.7 },
-    { "itemName": "Paneer", "calories": 265, "protein": 18.3, "carbs": 6.1, "fat": 20.8, "sugar": 2.6 },
-    { "itemName": "Coconut Oil", "calories": 862, "protein": 0.0, "carbs": 0.0, "fat": 100.0, "sugar": 0.0 },
-    { "itemName": "Olive Oil", "calories": 884, "protein": 0.0, "carbs": 0.0, "fat": 100.0, "sugar": 0.0 },
-    { "itemName": "Sunflower Oil", "calories": 884, "protein": 0.0, "carbs": 0.0, "fat": 100.0, "sugar": 0.0 },
-    { "itemName": "Mustard Oil", "calories": 884, "protein": 0.0, "carbs": 0.0, "fat": 100.0, "sugar": 0.0 },
-    { "itemName": "Ghee", "calories": 876, "protein": 0.3, "carbs": 0.0, "fat": 99.5, "sugar": 0.0 },
-    { "itemName": "Butter", "calories": 717, "protein": 0.9, "carbs": 0.1, "fat": 81.1, "sugar": 0.1 },
-    { "itemName": "Turmeric", "calories": 354, "protein": 7.8, "carbs": 64.9, "fat": 9.9, "sugar": 3.2 },
-    { "itemName": "Cumin Seeds", "calories": 375, "protein": 17.8, "carbs": 44.2, "fat": 22.3, "sugar": 2.2 },
-    { "itemName": "Coriander Seeds", "calories": 298, "protein": 12.4, "carbs": 55.0, "fat": 17.8, "sugar": 0.9 },
-    { "itemName": "Red Chili Powder", "calories": 282, "protein": 13.5, "carbs": 53.9, "fat": 14.3, "sugar": 7.2 },
-    { "itemName": "Black Pepper", "calories": 251, "protein": 10.4, "carbs": 63.9, "fat": 3.3, "sugar": 0.6 },
-     { "itemName": "Egg", "calories": 143, "protein": 13, "carbs": 0.7, "fat": 9.5, "sugar": 0.6 }
- 
+         { "itemName": "White Rice", "calories": 365, "protein": 7.1, "carbs": 80, "fat": 0.7 },
+        { "itemName": "Brown Rice", "calories": 370, "protein": 7.9, "carbs": 77, "fat": 2.9 },
+        { "itemName": "Basmati Rice", "calories": 356, "protein": 8.2, "carbs": 78, "fat": 0.8 },
+        { "itemName": "Red Rice", "calories": 405, "protein": 7.0, "carbs": 86, "fat": 2.2 },
+        { "itemName": "Wheat Flour (Atta)", "calories": 364, "protein": 13, "carbs": 76, "fat": 1.5 },
+        { "itemName": "Oats", "calories": 389, "protein": 17, "carbs": 66, "fat": 7 },
+        { "itemName": "Quinoa", "calories": 368, "protein": 14, "carbs": 64, "fat": 6 },
+        { "itemName": "Barley (Jau)", "calories": 354, "protein": 12, "carbs": 73, "fat": 2.3 },
+        { "itemName": "Millet (Bajra)", "calories": 378, "protein": 11, "carbs": 73, "fat": 4.2 },
+        { "itemName": "Sorghum (Jowar)", "calories": 339, "protein": 11, "carbs": 75, "fat": 3.3 },
+        { "itemName": "Semolina (Suji/Rava)", "calories": 360, "protein": 13, "carbs": 73, "fat": 1 }
+    ]
+  },
+{
+    name: "Nagpur Famous Foods",
+    description: "Iconic street foods, and local favourites of Nagpur.",
+    menu: [
+      // Mullaji Biryani
+       { itemName: "Chicken Dum Biryani", calories: 480, protein: 25, carbs: 55, fat: 18 },
+      { itemName: "Mutton Dum Biryani", calories: 550, protein: 28, carbs: 52, fat: 22 },
+      { itemName: "Egg Biryani (2 eggs)", calories: 430, protein: 18, carbs: 55, fat: 15 },
+      { itemName: "Hyderabadi Chicken Biryani", calories: 520, protein: 26, carbs: 60, fat: 20 },
+      { itemName: "Lucknowi Mutton Biryani", calories: 580, protein: 30, carbs: 58, fat: 24 },
+      { itemName: "Vegetable Biryani", calories: 350, protein: 8, carbs: 60, fat: 9 },
+      { itemName: "Paneer Biryani", calories: 420, protein: 15, carbs: 62, fat: 14 },
+      { itemName: "Vegetable Pulao", calories: 290, protein: 6, carbs: 55, fat: 4 },
+   
+{ itemName: "Oreo Shake (300ml)", calories: 420, protein: 6, carbs: 65, fat: 15 },
+      { itemName: "KitKat Shake (300ml)", calories: 450, protein: 7, carbs: 68, fat: 16 },
+      { itemName: "Cold Coffee (300ml)", calories: 180, protein: 4, carbs: 28, fat: 5 },
+      { itemName: "Belgian Chocolate Shake (300ml)", calories: 480, protein: 8, carbs: 70, fat: 18 },
+      { itemName: "Brownie Shake (300ml)", calories: 520, protein: 9, carbs: 75, fat: 20 },
+      { itemName: "Mango Shake (Seasonal, 300ml)", calories: 280, protein: 5, carbs: 55, fat: 4 },
+      { itemName: "Strawberry Shake (300ml)", calories: 260, protein: 5, carbs: 50, fat: 3 },
+      { itemName: "Banana Shake (300ml)", calories: 300, protein: 6, carbs: 58, fat: 5 },
+      { itemName: "Choco Hazelnut Shake (300ml)", calories: 490, protein: 8, carbs: 72, fat: 19 },
+      
+      // Nagpur Street Food
+      { itemName: "Tarri Poha (1 plate)", calories: 280, protein: 7, carbs: 50, fat: 6 },
+      { itemName: "Misal Pav (1 plate)", calories: 400, protein: 12, carbs: 55, fat: 14 },
+      { itemName: "Patodi Rassa (1 serving)", calories: 350, protein: 10, carbs: 40, fat: 12 },
+      { itemName: "Matka Biryani (1 pot, veg)", calories: 600, protein: 15, carbs: 90, fat: 18 },
+      { itemName: "Bhutte ka Kees (1 plate)", calories: 220, protein: 6, carbs: 40, fat: 5 },
+      { itemName: "Pav Bhaji (1 plate)", calories: 450, protein: 10, carbs: 65, fat: 16 },
+      { itemName: "Bhel Puri (1 plate)", calories: 180, protein: 5, carbs: 35, fat: 4 },
+      { itemName: "Pani Puri (6 pcs)", calories: 150, protein: 3, carbs: 30, fat: 2 },
+      { itemName: "Dabeli (1 piece)", calories: 320, protein: 7, carbs: 42, fat: 12 },
+      { itemName: "Saoji Chicken Curry (1 plate, with roti)", calories: 600, protein: 35, carbs: 40, fat: 28 },
+      { itemName: "Orange Barfi (Santra Barfi, 2 pcs)", calories: 250, protein: 5, carbs: 45, fat: 7 },
+      { itemName: "Basundi (1 small bowl)", calories: 280, protein: 8, carbs: 35, fat: 12 },
+      { itemName: "Soan Papdi (50g)", calories: 200, protein: 3, carbs: 28, fat: 8 }
     ]
   }
 ];

@@ -22,3 +22,15 @@ exports.getOutletById = async (req, res) => {
     res.status(500).send('Server Error');
   }
 };
+
+// --- THIS IS THE NEW FUNCTION THAT WAS MISSING ---
+exports.getAllOutletsWithMenus = async (req, res) => {
+  try {
+    // This time, we fetch everything, including the menu arrays
+    const outlets = await Outlet.find();
+    res.json(outlets);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+};
