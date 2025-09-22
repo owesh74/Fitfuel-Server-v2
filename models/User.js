@@ -7,7 +7,6 @@ const UserSchema = new mongoose.Schema({
   verified: { type: Boolean, default: false },
   otp: String,
   otpExpires: Date,
-  // --- ADD THESE NEW FIELDS ---
   height: { type: Number, default: 0 }, // in cm
   weight: { type: Number, default: 0 }, // in kg
   age: { type: Number, default: 0 },
@@ -17,11 +16,22 @@ const UserSchema = new mongoose.Schema({
     enum: ['sedentary', 'light', 'moderate', 'active', 'veryActive'],
     default: 'sedentary'
   },
-   goal: {
+  
+  // --- UPDATED GOAL FIELD ---
+  goal: {
     type: String,
-    enum: ['lose', 'maintain', 'gain'],
+    enum: ['lose', 'maintain', 'gain', 'muscleGain'], // Added 'muscleGain'
     default: 'maintain'
-  }
+  },
+
+  // --- NEW FIELDS FOR DETAILED GOAL PLANNING ---
+  goalWeight: { 
+    type: Number 
+  },
+  goalDuration: { 
+    type: Number, 
+    default: 12 // Default timeframe of 12 weeks
+  },
 });
 
 module.exports = mongoose.model('User', UserSchema);
