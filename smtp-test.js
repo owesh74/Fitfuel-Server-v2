@@ -1,11 +1,11 @@
-import nodemailer from "nodemailer";
+const nodemailer = require("nodemailer");
 
 (async () => {
   try {
     console.log("Testing SMTP connection...");
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 587, // try 465 if needed
+      port: 587,
       secure: false,
       auth: {
         user: process.env.EMAIL_USER,
